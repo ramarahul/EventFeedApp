@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    target = os.environ.get('TARGET', 'World')
     return 'Hello Rahul'
 
 
